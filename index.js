@@ -12,7 +12,7 @@ const app = express();
 const PORT = 3000;
 
 // Configure CORS to allow all origins
-const corsOptions = {
+var corsOptions = {
   origin: "*",
   optionsSuccessStatus: 200,
 };
